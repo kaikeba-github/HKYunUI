@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'Qiniu'
 
-  s.dependency 'CCVodSDK'
+  # s.dependency 'CCVodSDK'
 
   s.dependency 'GTSDK'#个推
   
