@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HKYunUI'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HKYunUI.'
+  s.summary          = 'HKYunUI Components'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,24 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ HKYunUI Components frameworks for application
                        DESC
 
-  s.homepage         = 'https://github.com/付桃/HKYunUI'
+  s.homepage         = 'https://www.kaikeba.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '付桃' => 'tfu@gaoxiaobang.com' }
-  s.source           = { :git => 'https://github.com/付桃/HKYunUI.git', :tag => s.version.to_s }
+  s.author           = { 'futao' => 'tfu@gaoxiaobang.com' }
+  s.source           = { :git => 'https://github.com/kaikeba-github/HKYunUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
+  if s.respond_to? 'swift_version'
+    s.swift_version = "5.0"
+  end
 
   s.source_files = 'HKYunUI/Classes/**/*'
+  s.vendored_frameworks = "HKYunUI/Frameworks/KKBUniverse.framework"
+  s.vendored_frameworks = "HKYunUI/Frameworks/KKBUIFramework.framework"
   
   # s.resource_bundles = {
   #   'HKYunUI' => ['HKYunUI/Assets/*.png']
@@ -38,5 +43,29 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'ReactiveObjC' #工程依赖的第三方库
+  s.dependency 'pop'
+  s.dependency 'SDWebImage'
+  s.dependency 'MJRefresh'
+  s.dependency 'lottie-ios'
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'SVProgressHUD'
+
+  s.dependency 'MJExtension'
+  # s.dependency 'WCDB'
+  s.dependency 'YTKNetwork'
+  s.dependency 'AFNetworking'
+
+  s.dependency 'TZImagePickerController'
+
+  s.dependency 'Qiniu'
+
+  s.dependency 'CCVodSDK'
+
+  s.dependency 'GTSDK'#个推
+  
+  s.dependency 'UMCCommon'#友盟
+  s.dependency 'UMCSecurityPlugins'
+  s.dependency 'UMCErrorCatch'
+  s.dependency 'UMCShare/Social/WeChat'#集成微信
 end

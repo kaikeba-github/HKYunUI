@@ -1,0 +1,6 @@
+framework module KKBUIFramework {
+  umbrella header "KKBUIFramework.h"
+
+  export *
+  module * { export * }
+}

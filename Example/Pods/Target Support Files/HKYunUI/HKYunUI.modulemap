@@ -1,0 +1,6 @@
+framework module HKYunUI {
+  umbrella header "HKYunUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

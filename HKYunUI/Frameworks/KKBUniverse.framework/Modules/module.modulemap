@@ -1,0 +1,6 @@
+framework module KKBUniverse {
+  umbrella header "KKBUniverse.h"
+
+  export *
+  module * { export * }
+}
