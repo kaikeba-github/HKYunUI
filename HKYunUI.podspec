@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HKYunUI'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'HKYunUI Components'
 
 # This description is used to generate tags and improve search results.
@@ -43,14 +43,14 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'HKYunSDK' #工程依赖的第三方库
-  # s.dependency 'HKYunLive' #工程依赖的第三方库
-  # s.dependency 'TZImagePickerController'
-  # s.dependency 'Qiniu' #七牛云
-  # s.dependency 'CCVodSDK'
-  # s.dependency 'GTSDK' #个推
-  # s.dependency 'UMCCommon'#友盟
-  # s.dependency 'UMCSecurityPlugins'
-  # s.dependency 'UMCErrorCatch'
-  # s.dependency 'UMCShare/Social/WeChat'#集成微信
+  s.dependency 'HKYunSDK' #工程依赖的第三方库
+  s.dependency 'HKYunLive' #工程依赖的第三方库
+  s.dependency 'TZImagePickerController'
+  s.dependency 'Qiniu' #七牛云
+  s.dependency 'CCVodSDK'
+  s.dependency 'GTSDK' #个推
+  s.dependency 'UMCCommon'#友盟
+  s.dependency 'UMCSecurityPlugins'
+  s.dependency 'UMCErrorCatch'
+  s.dependency 'UMCShare/Social/WeChat'#集成微信
 end
