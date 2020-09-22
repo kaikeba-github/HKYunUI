@@ -46,9 +46,9 @@ Pod::Spec.new do |s|
   # s.dependency 'HKYunSDK' #工程依赖的第三方库
   # s.dependency 'HKYunLive' #工程依赖的第三方库
   # s.dependency 'TZImagePickerController'
-  s.dependency 'Qiniu' #七牛云
+  #s.dependency 'Qiniu' #七牛云
   # s.dependency 'CCVodSDK'
-  s.dependency 'GTSDK' #个推
+  #s.dependency 'GTSDK' #个推
   s.dependency 'UMCCommon'#友盟
   s.dependency 'UMCSecurityPlugins'
   s.dependency 'UMCErrorCatch'
