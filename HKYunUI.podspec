@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'HKYunSDK' #工程依赖的第三方库
   # s.dependency 'HKYunLive' #工程依赖的第三方库
-  s.dependency 'TZImagePickerController'
+  # s.dependency 'TZImagePickerController'
   s.dependency 'Qiniu' #七牛云
   # s.dependency 'CCVodSDK'
   s.dependency 'GTSDK' #个推
