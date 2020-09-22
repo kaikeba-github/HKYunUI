@@ -49,8 +49,8 @@ Pod::Spec.new do |s|
   #s.dependency 'Qiniu' #七牛云
   # s.dependency 'CCVodSDK'
   #s.dependency 'GTSDK' #个推
-  s.dependency 'UMCCommon'#友盟
-  s.dependency 'UMCSecurityPlugins'
-  s.dependency 'UMCErrorCatch'
-  s.dependency 'UMCShare/Social/WeChat'#集成微信
+  # s.dependency 'UMCCommon'#友盟
+  # s.dependency 'UMCSecurityPlugins'
+  # s.dependency 'UMCErrorCatch'
+  # s.dependency 'UMCShare/Social/WeChat'#集成微信
 end
